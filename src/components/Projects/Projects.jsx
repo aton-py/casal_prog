@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Projetos Recentes" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        Ver
                       </a>
 
                       {repo && (

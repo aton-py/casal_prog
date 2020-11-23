@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Casal Dev', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Oi, somos um', // e.g: Welcome to my website
+  description: 'Desenvolvimento de Web e Mobile', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -21,37 +21,37 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'shalom.png',
+    title: 'Shalom Turismo',
+    info: 'E-commerce de Reserva de Passeios em Porto Seguro - BA.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://shalomturismoportoseguro.com.br/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'mukusuy.png',
+    title: 'Mukusuy Aventura',
+    info: 'E-commerce de Reserva de Experiências Turísticas na Costa do Descobrimento - BA.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://mukusuyaventura.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'app.png',
+    title: 'Desenvolvimento de Aplicativos Mobile e Web Sites.',
+    info: 'Sua empresa precisa de uma solução moderna? Nós criamos para você.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://forms.gle/LuvkEqZZDTH2knnT9',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -65,30 +65,21 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/aton-bertini-d%C3%B6rnfeld-143986104/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/aton-py/Aton_Guia',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

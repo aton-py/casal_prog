@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="Sobre Nós" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Somos Aton Bertini e Kali Reis, um casal de Desenvolvedores que compartilha da paixão de transformar ideias brilhantes em sites e aplicativos incríveis.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Trabalhamos com as principais tecnologias do mercado e estamos preparados para entregar rapidamente o seu projeto, de forma profissional, seguindo as melhores práticas em desenvolvimento.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Temos experiência em projetos internacionais de grande porte, e focamos na experiência do usuário, trazendo ao seu projeto o toque profissional e moderno que você tanto espera.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -56,7 +56,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Currículo
                     </a>
                   </span>
                 )}
