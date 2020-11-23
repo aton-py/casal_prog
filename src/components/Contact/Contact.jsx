@@ -21,7 +21,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://www.facebook.com/kalinka.durco/'}
+              href={email ? `mailto:${email}` : 'https://api.whatsapp.com/send?phone=5573988064753&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20como%20posso%20Criar%20o%20meu%20Site%20ou%20Aplicativo.'}
             >
               {btn || "Converse Conosco"}
             </a>
