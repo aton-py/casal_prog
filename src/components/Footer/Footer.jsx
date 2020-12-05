@@ -40,7 +40,7 @@ const Footer = () => {
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Bertini e Reis
+            Reis e Bertini
           </a>
         </p>
 
